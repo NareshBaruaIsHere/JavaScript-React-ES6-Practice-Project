@@ -44,8 +44,16 @@
 
 //? Reference Types
 
-let arr1 = [1,2,3];
-let arr2 = arr1;
-arr2.push(4);
-console.log(arr1);
+// let arr1 = [1,2,3];
+// let arr2 = arr1;
+// arr2.push(4);
+// console.log(arr1);
 
+//? Arithmetic Operators
+
+let x= 5 + 3;
+let y = 10%3;
+console.log(x,y);
+
+console.log(5 == '5');
+console.log(5 === '5');
