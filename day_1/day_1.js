@@ -19,9 +19,33 @@
 // let total = price1+price2;
 // console.log(total);
 
-//? Data type
-
 // const pi = 3.14;
 // let person = "Naresh Barua";
 // let answer = 'Yes I am!';
 // console.log(pi + "\n" + person + "\n" + answer);
+
+// let age = 20;
+// age = 21;
+// console.log(age);
+
+//! const name = "Naresh";
+//! name = "Barua";
+// console.log(name);
+
+//? Data type
+
+//? Primitive Types
+
+// let a = 10;
+// //! a = 30;
+// let b = a;
+// b = 20;
+// console.log(a);
+
+//? Reference Types
+
+let arr1 = [1,2,3];
+let arr2 = arr1;
+arr2.push(4);
+console.log(arr1);
+
