@@ -22,10 +22,27 @@
 
 //? Function Declaration 
 
-function add(a,b){
-    return a+b;
-}
+// function add(a,b){
+//     return a+b;
+// }
 
-//? Arrow Function
+// //? Arrow Function
 
-const add = (a,b) => a + b;
+// const add = (a,b) => a + b;
+
+// //? Scope (Global vs Local)
+
+// //!global
+// let x = 10; // Global
+// function test() {
+//   console.log(x); // Can access global variable x
+// }
+
+// //! local
+// function test() {
+//   let y = 20; // Local
+//   console.log(y); // Accessible inside function
+// }
+// console.log(y); // Error: y is not defined
+
+
