@@ -20,3 +20,12 @@
 // let result = [sum1, sum2];
 // console.log(result);
 
+//? Function Declaration 
+
+function add(a,b){
+    return a+b;
+}
+
+//? Arrow Function
+
+const add = (a,b) => a + b;
