@@ -16,9 +16,17 @@
 // let t = (age < 18) ? "Minor" : "Adult";
 // console.log(t);
 
-let price = 2;
-let isMember = false;
-let discount = isMember ? 0.2 : 0;
-let total = 10 - (price * discount);
+// let price = 2;
+// let isMember = false;
+// let discount = isMember ? 0.2 : 0;
+// let total = 10 - (price * discount);
 
-console.log(total);
+// console.log(total);
+
+//? map()
+
+const nums = [1,2,3,4,5];
+const Dnum = nums.map(num => num * 2);
+
+console.log('Original Num:', nums);
+console.log('Double Num:', Dnum);
