@@ -58,10 +58,14 @@
 // let result = name ?? text;
 // console.log(result);
 
-//? Loops
+//? filter
 
+const numbers = [1, 2, 3, 4, 5];
 
+const filteredNumbers = numbers.filter(num => num > 2);
 
+console.log('Original Numbers:', numbers);  
+console.log('Filtered Numbers (> 2):', filteredNumbers);  
 
 
 
