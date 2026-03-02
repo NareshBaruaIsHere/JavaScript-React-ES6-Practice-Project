@@ -16,3 +16,9 @@ do {
   console.log("Do while:", k);
   k++;
 } while (k <= 3);
+
+// For...of loop example
+const fruits = ["apple", "banana", "mango"];
+for (const fruit of fruits) {
+  console.log("Fruit:", fruit);
+}
